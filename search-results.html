@@ -15,7 +15,43 @@
 
     <title>Résultats de recherche</title>
   </head>
-  <body>
+  <body d-flex flex-column>
+    <header class="mb-5">
+      <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand bi bi-clouds-fill" href="#">HUBCOURS</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="#">Accueil</a>
+              <a class="nav-link active" href="#">HTML</a>
+              <a class="nav-link active" href="#">CSS</a>
+              <a class="nav-link active" href="#">Bootstrap</a>
+              <a class="nav-link active" href="#">JS</a>
+              <a class="nav-link active" href="#">Contact</a>
+            </div>
+            <form class="ms-auto">
+              <input
+                class="form-control mr-sm-2 rounded-pill"
+                type="search"
+                placeholder="search"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main class="container-fluid w-50 mx-auto">
       <h1 class="py-5 display-4 text-center">Résultats de votre recherche :</h1>
       <div class="container-fluid w-75 mx-auto">
@@ -71,7 +107,21 @@
         </div>
       </div>
     </main>
-
+    <footer class="mt-auto">
+      <nav
+        class="d-flex justify-content-between navbar-light bg-secondary py-3 px-3"
+      >
+        <p>SuperUltraMegaDev Web Agency</p>
+        <p>&copy2021 - 2022</p>
+        <p class="d-flex-inline">
+          <a class="bi bi-instagram" href="#"></a>
+          <a class="bi bi-twitter" href="#"></a>
+          <a class="bi bi-facebook" href="#"></a>
+          <a class="bi bi-linkedin" href="#"></a>
+          <a class="bi bi-github" href="#"></a>
+        </p>
+      </nav>
+    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
